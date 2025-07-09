@@ -1,1 +1,900 @@
-sddd
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAIR GROWTH SPRAY SERUM - Solusi Rambut Rontok & Botak | Neylna Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        secondary: '#10b981',
+                        accent: '#f59e0b',
+                        dark: '#1e293b',
+                        light: '#f8fafc'
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                        'bounce-slow': 'bounce 2s infinite'
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .product-shadow {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .modal {
+            transition: opacity 0.3s ease;
+        }
+        .modal-content {
+            transition: all 0.3s ease;
+        }
+        .modal-hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        .modal-content-hidden {
+            transform: scale(0.9);
+        }
+        .new-order-popup {
+            animation: slideIn 0.5s forwards, slideOut 0.5s forwards 2.5s;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0); }
+        }
+        @keyframes slideOut {
+            from { transform: translateY(0); }
+            to { transform: translateY(100%); }
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <img src="https://cdn.orderonline.id/uploads/images_8057731750768190275.png" alt="Neylna Store Logo" class="h-10 w-auto">
+                <span class="text-xl font-bold text-dark">Neylna Store</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#produk" class="text-gray-700 hover:text-primary font-medium">Produk</a>
+                <a href="#manfaat" class="text-gray-700 hover:text-primary font-medium">Manfaat</a>
+                <a href="#testimoni" class="text-gray-700 hover:text-primary font-medium">Testimoni</a>
+                <a href="#beli" class="bg-primary text-white px-4 py-2 rounded-full hover:bg-blue-600 transition">Beli Sekarang</a>
+            </div>
+            <button class="md:hidden text-gray-700">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg py-12 md:py-20">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold text-dark mb-4 leading-tight">HAIR GROWTH SPRAY SERUM</h1>
+                <p class="text-xl text-gray-700 mb-6">Solusi Ampuh Atasi Rambut Rontok & Botak untuk Pria dan Wanita</p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center">
+                        <i class="fas fa-check-circle text-secondary mr-2"></i>
+                        <span>Menghentikan kerontokan rambut secara efektif</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-check-circle text-secondary mr-2"></i>
+                        <span>Merangsang pertumbuhan rambut baru</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-check-circle text-secondary mr-2"></i>
+                        <span>Formula khusus untuk pria dan wanita</span>
+                    </li>
+                </ul>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#beli" class="bg-primary hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full transition flex items-center">
+                        <i class="fas fa-shopping-cart mr-2"></i> BELI SEKARANG
+                    </a>
+                    <a href="#testimoni" class="border-2 border-primary text-primary font-bold py-3 px-6 rounded-full transition hover:bg-primary hover:text-white">
+                        Lihat Testimoni
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://lotioncentre.com/cdn/shop/files/O1CN01XRSpWd1y6KwBzz2zB__2208305356529-0-cib_540x.jpg?v=1749731655" 
+                     alt="Hair Growth Spray Serum" 
+                     class="w-full max-w-md product-shadow rounded-lg animate-float">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="bg-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center gap-8 md:gap-16 text-center">
+                <div class="flex flex-col items-center">
+                    <div class="text-3xl md:text-4xl font-bold text-primary mb-2" id="viewer-count">1,258</div>
+                    <div class="text-gray-600">Pengunjung Hari Ini</div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="text-3xl md:text-4xl font-bold text-secondary mb-2" id="sold-count">1892</div>
+                    <div class="text-gray-600">Terjual Bulan Ini</div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="text-3xl md:text-4xl font-bold text-accent mb-2" id="stock-count">28</div>
+                    <div class="text-gray-600">Stok Tersisa</div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="text-3xl md:text-4xl font-bold text-dark mb-2" id="happy-customers">4k+</div>
+                    <div class="text-gray-600">Pelanggan Puas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="produk" class="py-12 md:py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-dark mb-12">Produk Kami</h2>
+            
+            <div class="flex flex-col lg:flex-row gap-8 items-center">
+                <div class="lg:w-1/2">
+                    <div class="grid grid-cols-2 gap-4 mb-4">
+                        <div class="cursor-pointer" onclick="openModal('https://cbu01.alicdn.com/img/ibank/O1CN01Gceygb1y6KwFt2LEz_!!2208305356529-0-cib.jpg?__r__=1735634088496')">
+                            <img src="https://cbu01.alicdn.com/img/ibank/O1CN01Gceygb1y6KwFt2LEz_!!2208305356529-0-cib.jpg?__r__=1735634088496" 
+                                 alt="Hair Growth Spray Serum" 
+                                 class="w-full h-auto rounded-lg object-cover hover:opacity-90 transition">
+                        </div>
+                        <div class="cursor-pointer" onclick="openModal('https://cbu01.alicdn.com/img/ibank/O1CN01FQyX2X1y6KwEIWuT4_!!2208305356529-0-cib.jpg?__r__=1735634088496')">
+                            <img src="https://cbu01.alicdn.com/img/ibank/O1CN01FQyX2X1y6KwEIWuT4_!!2208305356529-0-cib.jpg?__r__=1735634088496" 
+                                 alt="Hair Growth Spray Serum" 
+                                 class="w-full h-auto rounded-lg object-cover hover:opacity-90 transition">
+                        </div>
+                        <div class="cursor-pointer" onclick="openModal('https://cbu01.alicdn.com/img/ibank/O1CN01vTeRMU1y6KwGtJzT2_!!2208305356529-0-cib.jpg?__r__=1735634088496')">
+                            <img src="https://cbu01.alicdn.com/img/ibank/O1CN01vTeRMU1y6KwGtJzT2_!!2208305356529-0-cib.jpg?__r__=1735634088496" 
+                                 alt="Hair Growth Spray Serum" 
+                                 class="w-full h-auto rounded-lg object-cover hover:opacity-90 transition">
+                        </div>
+                        <div class="cursor-pointer" onclick="openModal('https://lotioncentre.com/cdn/shop/files/8dd16405-e881-4c60-88af-42c62c42302c_fine_540x.jpg?v=1749731654')">
+                            <img src="https://lotioncentre.com/cdn/shop/files/8dd16405-e881-4c60-88af-42c62c42302c_fine_540x.jpg?v=1749731654" 
+                                 alt="Hair Growth Spray Serum" 
+                                 class="w-full h-auto rounded-lg object-cover hover:opacity-90 transition">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <h3 class="text-2xl font-bold text-dark mb-4">HAIR GROWTH SPRAY SERUM</h3>
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="text-gray-600 ml-2">4.7 (1,258 ulasan)</span>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <span class="text-3xl font-bold text-primary">Rp 175.000</span>
+                        <span class="text-xl text-gray-500 line-through ml-2">Rp 262.500</span>
+                        <span class="bg-red-100 text-red-800 text-sm font-semibold ml-2 px-2.5 py-0.5 rounded">33% OFF</span>
+                    </div>
+                    
+                    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-exclamation-circle text-yellow-400 mt-1"></i>
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-sm text-yellow-700">
+                                    <span class="font-bold">PROMO KHUSUS HARI INI!</span> Gratis ongkir untuk pembayaran transfer hari ini. Stok terbatas!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold text-dark mb-2">Pilih Varian:</h4>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="border-2 border-primary rounded-lg p-2 cursor-pointer hover:bg-primary hover:text-white transition">
+                                <img src="https://down-id.img.susercontent.com/file/id-11134207-7rask-m0laommymouu5b@resize_w450_nl.webp" 
+                                     alt="Untuk Pria" 
+                                     class="w-24 h-auto mb-1">
+                                <div class="text-center font-medium">Untuk Pria</div>
+                            </div>
+                            <div class="border-2 border-gray-300 rounded-lg p-2 cursor-pointer hover:border-primary transition">
+                                <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk7-m9zjbfmljoz73b@resize_w450_nl.webp" 
+                                     alt="Untuk Wanita" 
+                                     class="w-24 h-auto mb-1">
+                                <div class="text-center font-medium">Untuk Wanita</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="font-bold text-dark mb-2">Keuntungan Membeli Hari Ini:</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-secondary mt-1 mr-2"></i>
+                                <span>Gratis Ongkir ( Khusus pembayaran via TF )</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-secondary mt-1 mr-2"></i>
+                                <span>Garansi 100% uang kembali jika tidak puas</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-secondary mt-1 mr-2"></i>
+                                <span>Bonus e-book perawatan rambut sehat</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-clock text-blue-400 mt-1"></i>
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-sm text-blue-700">
+                                    <span class="font-bold">PROMO BERAKHIR DALAM:</span>
+                                    <div id="countdown" class="font-bold text-xl mt-1">
+                                        <span id="hours">12</span> Jam 
+                                        <span id="minutes">34</span> Menit 
+                                        <span id="seconds">56</span> Detik
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#beli" class="block w-full bg-primary hover:bg-blue-600 text-white font-bold py-4 px-6 rounded-lg text-center transition mb-4">
+                        <i class="fas fa-shopping-cart mr-2"></i> BELI SEKARANG
+                    </a>
+                    
+                    <div class="flex items-center justify-center text-gray-600 text-sm">
+                        <i class="fas fa-lock mr-2"></i>
+                        <span>Pembayaran Aman & Terjamin</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="manfaat" class="py-12 md:py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-dark mb-12">Mengapa Memilih Hair Growth Spray Serum Kami?</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-leaf text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Formula Alami</h3>
+                    <p class="text-gray-600">Dibuat dari bahan-bahan alami berkualitas tinggi yang aman untuk kulit kepala dan efektif merangsang pertumbuhan rambut.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-secondary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-flask text-secondary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Teruji Klinis</h3>
+                    <p class="text-gray-600">Telah melalui uji klinis dan terbukti efektif mengurangi kerontokan rambut hingga 89% dalam 4 minggu pemakaian.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-accent bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-user-tie text-accent text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Untuk Pria & Wanita</h3>
+                    <p class="text-gray-600">Formula khusus yang disesuaikan dengan kebutuhan rambut pria dan wanita, memberikan hasil optimal untuk semua jenis rambut.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-purple-500 bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-bolt text-purple-500 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Hasil Cepat</h3>
+                    <p class="text-gray-600">Mulai terlihat hasil dalam 2-4 minggu pemakaian rutin. Rambut lebih kuat, tebal, dan sehat secara alami.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-red-400 bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-heart text-red-400 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Aman & Nyaman</h3>
+                    <p class="text-gray-600">Tidak menyebabkan iritasi, gatal, atau efek samping berbahaya. Cocok untuk kulit kepala sensitif sekalipun.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-green-500 bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-medal text-green-500 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Garansi Kepuasan</h3>
+                    <p class="text-gray-600">Garansi 100% uang kembali jika produk tidak memberikan hasil sesuai ekspektasi dalam waktu 30 hari.</p>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-r from-primary to-secondary p-6 md:p-8 rounded-lg text-white">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-2/3 mb-6 md:mb-0">
+                        <h3 class="text-2xl font-bold mb-2">Ingin Rambut Lebih Tebal & Sehat?</h3>
+                        <p class="mb-4">Jangan biarkan kerontokan rambut mengurangi kepercayaan diri Anda. Coba Hair Growth Spray Serum sekarang dan lihat perbedaannya!</p>
+                        <a href="#beli" class="inline-block bg-white text-primary font-bold py-3 px-6 rounded-full hover:bg-opacity-90 transition">
+                            <i class="fas fa-shopping-cart mr-2"></i> PESAN SEKARANG
+                        </a>
+                    </div>
+                    <div class="md:w-1/3 flex justify-center">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7rbk5-m8qd3hcfiex967.webp" 
+                             alt="Rambut Sehat" 
+                             class="w-48 h-auto rounded-full border-4 border-white">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Use Section -->
+    <section class="py-12 md:py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-dark mb-12">Cara Penggunaan</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <div class="w-20 h-20 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-primary text-3xl font-bold">1</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Semprotkan</h3>
+                    <p class="text-gray-600">Semprotkan serum secara merata pada area kulit kepala yang mengalami kerontokan atau kebotakan.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <div class="w-20 h-20 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-primary text-3xl font-bold">2</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Pijat Lembut</h3>
+                    <p class="text-gray-600">Pijat lembut kulit kepala selama 2-3 menit untuk membantu penyerapan serum.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <div class="w-20 h-20 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-primary text-3xl font-bold">3</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Gunakan Rutin</h3>
+                    <p class="text-gray-600">Gunakan 2 kali sehari (pagi dan malam) untuk hasil optimal. Jangan bilas setelah pemakaian.</p>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2">
+                        <img src="https://lotioncentre.com/cdn/shop/files/cc907625-fe7b-4143-8114-7fdc3f4fb2a0_fine_540x.jpg?v=1749731652" 
+                             alt="Before After" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="md:w-1/2 p-6 md:p-8">
+                        <h3 class="text-2xl font-bold text-dark mb-4">Hasil yang Dapat Diharapkan</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
+                                        <i class="fas fa-check text-white text-xs"></i>
+                                    </div>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-gray-700"><span class="font-bold">Minggu 1-2:</span> Kerontokan rambut berkurang signifikan</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
+                                        <i class="fas fa-check text-white text-xs"></i>
+                                    </div>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-gray-700"><span class="font-bold">Minggu 3-4:</span> Rambut baru mulai tumbuh di area botak</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
+                                        <i class="fas fa-check text-white text-xs"></i>
+                                    </div>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-gray-700"><span class="font-bold">Minggu 5-8:</span> Rambut lebih tebal, kuat, dan sehat</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
+                                        <i class="fas fa-check text-white text-xs"></i>
+                                    </div>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-gray-700"><span class="font-bold">Minggu 9-12:</span> Hasil maksimal dengan rambut lebih lebat dan sehat</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8 bg-yellow-50 border-l-4 border-yellow-400 p-4">
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-exclamation-triangle text-yellow-400 mt-1"></i>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-sm text-yellow-700">
+                                        <span class="font-bold">PERHATIAN:</span> Hasil dapat bervariasi tergantung kondisi rambut dan konsistensi pemakaian. Disarankan untuk menggunakan minimal 1 botol (30ml) untuk melihat hasil signifikan.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimoni" class="py-12 md:py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-dark mb-12">Apa Kata Mereka?</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                <div class="bg-gray-50 p-6 rounded-lg testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center font-bold">
+                            F
+                        </div>
+                        <div class="ml-3">
+                            <h4 class="font-bold text-dark">Fauzan - Karyawan</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Setelah 1 bulan pakai, rambut saya yang mulai menipis di atas sekarang tumbuh kembali. Produk ini benar-benar bekerja!"</p>
+                    <div class="mt-4 grid grid-cols-2 gap-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134103-7ras9-m1ibg1k47vxb66.webp" alt="Testimoni Budi 1" class="rounded-lg cursor-pointer hover:opacity-90" onclick="openModal('https://down-id.img.susercontent.com/file/id-11134103-7ras9-m1ibg1k47vxb66.webp')">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134103-7rask-m1ibg1k49ahr41.webp" alt="Testimoni Budi 2" class="rounded-lg cursor-pointer hover:opacity-90" onclick="openModal('https://down-id.img.susercontent.com/file/id-11134103-7rask-m1ibg1k49ahr41.webp')">
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-secondary text-white flex items-center justify-center font-bold">
+                            I
+                        </div>
+                        <div class="ml-3">
+                            <h4 class="font-bold text-dark">Ifara - Ibu Rumah Tangga</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Rambut saya sering rontok setelah melahirkan. Setelah 3 minggu pakai serum ini, kerontokan berkurang drastis. Sangat direkomendasikan!"</p>
+                    <div class="mt-4 grid grid-cols-2 gap-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134103-7rbk4-m7nn41kgv07ta9.webp" alt="Testimoni Siti 1" class="rounded-lg cursor-pointer hover:opacity-90" onclick="openModal('https://down-id.img.susercontent.com/file/id-11134103-7rbk4-m7nn41kgv07ta9.webp')">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134103-7rbkb-m7nn41kgv03bac.webp" alt="Testimoni Siti 2" class="rounded-lg cursor-pointer hover:opacity-90" onclick="openModal('https://down-id.img.susercontent.com/file/id-11134103-7rbkb-m7nn41kgv03bac.webp')">
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center font-bold">
+                            A
+                        </div>
+                        <div class="ml-3">
+                            <h4 class="font-bold text-dark">Arfan - Pengusaha</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Botak di bagian depan sudah mengganggu kepercayaan diri saya. Sekarang setelah 2 bulan pakai, rambut mulai tumbuh lagi. Terima kasih!"</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-purple-500 text-white flex items-center justify-center font-bold">
+                            D
+                        </div>
+                        <div class="ml-3">
+                            <h4 class="font-bold text-dark">Dita - Guru</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Saya sudah mencoba banyak produk tapi tidak ada yang seefektif ini. Rambut saya sekarang lebih tebal dan sehat. Worth every penny!"</p>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="#beli" class="inline-block bg-primary hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full transition">
+                    <i class="fas fa-shopping-cart mr-2"></i> COBA SENDIRI SEKARANG
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="beli" class="py-12 md:py-20 bg-primary text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Jangan Biarkan Rambut Rontok Mengganggu Hari-Hari Anda!</h2>
+                <p class="text-xl mb-8">Pesan Hair Growth Spray Serum sekarang dan dapatkan rambut lebih tebal, kuat, dan sehat dalam hitungan minggu.</p>
+                
+                <div class="bg-white text-dark rounded-lg p-6 md:p-8 mb-8">
+                    <h3 class="text-2xl font-bold mb-4">SPESIAL HARI INI SAJA!</h3>
+                    
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-4 mb-6">
+                        <div class="text-center">
+                            <div class="text-gray-500 line-through text-xl">Rp 262.500</div>
+                            <div class="text-4xl font-bold text-primary">Rp 175.000</div>
+                        </div>
+                        <div class="bg-red-500 text-white px-4 py-2 rounded-full font-bold animate-pulse-slow">
+                            HEMAT 33%
+                        </div>
+                    </div>
+                    
+                    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6 text-left">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-gift text-yellow-400 mt-1"></i>
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-sm text-yellow-700">
+                                    <span class="font-bold">BONUS SPESIAL:</span> Gratis ongkir seluruh Indonesia untuk pembayaran via transfer hari ini!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <div class="w-full bg-gray-200 rounded-full h-4 mb-2">
+                            <div class="bg-secondary h-4 rounded-full" style="width: 75%"></div>
+                        </div>
+                        <div class="flex justify-between text-sm text-gray-600">
+                            <span>Tersisa: <span id="stock-left">28</span> botol</span>
+                            <span>Terjual: 892 botol</span>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-6 text-left">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-clock text-blue-400 mt-1"></i>
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-sm text-blue-700">
+                                    <span class="font-bold">PROMO BERAKHIR DALAM:</span>
+                                    <div id="countdown-2" class="font-bold text-xl mt-1">
+                                        <span id="hours-2">12</span> Jam 
+                                        <span id="minutes-2">34</span> Menit 
+                                        <span id="seconds-2">56</span> Detik
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Order Form -->
+                    <div class="ooef">
+                        <form class="orderonline-embed-form" data-username="vera" data-product-slug="hair-growth-spray-serum" data-product-id="686e547f9a8d1d68c70c8d72" id="oo-embed-form-hair-growth-spray-serum-3291" data-origin="orderonline">
+                            <div class="ooef-loader"><style>.ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}@keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}@-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}.ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}.ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}.ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}@-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}@keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}</style><div aria-live="polite" role="status"><div>Loading...</div></div></div>
+                        </form>
+                    </div>
+                    <script>
+                        if (typeof xLogError != 'function') {
+                            var xLogError = function (error) {
+                                var req = new XMLHttpRequest();
+                                var payload = JSON.stringify({
+                                    url: document.location.href,
+                                    line: error.line,
+                                    stack: error.stack
+                                });
+                                var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                                req.open('POST', 'https://api.orderonline.id/log', true);
+                                req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                                req.send(params);
+                            };
+                        }
+                        try {
+                            if (typeof xEmbedScript != 'function') {
+                                var xEmbedScript = function () {
+                                    !function(w, d, e, v, id, t, s) {
+                                        if (d.getElementById(id)) return;
+                                        t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                        s = d.getElementsByTagName(e)[0];
+                                        s.parentNode.insertBefore(t, s);
+                                    }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                                };
+                            }
+                            if (typeof xEmbedInit != 'function') {
+                                var xEmbedInit = function (w, n) {
+                                    if (w.ooe) return;
+                                    n = w.ooe = function() {
+                                        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                                    };
+                                    if (!w._ooe) w._ooe = n;
+                                    n.push = n;n.loaded = !0;n.version = '8.0.4';n.queue = [];
+                                };
+                            }
+                            xEmbedInit(window);
+                            ooe('setup', 'redirect', 'https://vera.orderonline.id');
+                            ooe('init', '5f1a7807a9bf807d6c63d963', '686e547f9a8d1d68c70c8d72', '686e547f9a8d1d68c70c8d73', 'oo-embed-form-hair-growth-spray-serum-3291', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":true,"triggerGtm":false});
+                            if (!window.jQuery) {
+                                !function(w, d, e, v, id, t, s) {
+                                    if (d.getElementById(id)) return;
+                                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                                    t.addEventListener('load', xEmbedScript);
+                                    s = d.getElementsByTagName(e)[0];
+                                    s.parentNode.insertBefore(t, s);
+                                }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+                            } else {
+                                xEmbedScript();
+                            }
+                        } catch (e) {
+                            xLogError(e);
+                            throw e;
+                        }
+                    </script>
+                    <!-- End Order Form -->
+                    
+                    <div class="flex flex-wrap justify-center gap-4 mt-6">
+                        <div class="flex items-center text-sm">
+                            <i class="fas fa-shield-alt text-primary mr-2"></i>
+                            <span>Garansi 100% Uang Kembali</span>
+                        </div>
+                        <div class="flex items-center text-sm">
+                            <i class="fas fa-truck text-primary mr-2"></i>
+                            <span>Gratis Ongkir Hari Ini</span>
+                        </div>
+                        <div class="flex items-center text-sm">
+                            <i class="fas fa-lock text-primary mr-2"></i>
+                            <span>Pembayaran Aman</span>
+                        </div>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center space-x-2">
+                        <img src="https://cdn.orderonline.id/uploads/images_8057731750768190275.png" alt="Neylna Store Logo" class="h-8 w-auto">
+                        <span class="text-lg font-bold">Neylna Store</span>
+                    </div>
+                    <p class="mt-2 text-gray-400 text-sm">Solusi Terbaik untuk Rambut Sehat dan Kuat</p>
+                </div>
+                
+                <div class="flex flex-col items-center md:items-end">
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400 text-sm">© 2023 Neylna Store. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 modal-hidden">
+        <div class="modal-content relative max-w-4xl w-full mx-4 modal-content-hidden">
+            <button onclick="closeModal()" class="absolute -top-12 right-0 text-white text-3xl hover:text-gray-300">
+                <i class="fas fa-times"></i>
+            </button>
+            <img id="modalImage" src="" alt="Product Image" class="w-full h-auto max-h-screen object-contain">
+        </div>
+    </div>
+
+    <!-- New Order Popup -->
+    <div id="newOrderPopup" class="new-order-popup fixed bottom-4 right-4 bg-white rounded-lg shadow-lg p-4 z-50 max-w-xs hidden">
+        <div class="flex items-start">
+            <div class="relative">
+                <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold">
+                    <span id="popupInitial">A</span>
+                </div>
+                <div class="absolute -bottom-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-white"></div>
+            </div>
+            <div class="ml-3 flex-1">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <span class="font-bold" id="popupName">Andi</span>
+                        <span class="text-gray-500 text-sm ml-1" id="popupLocation">(Jakarta)</span>
+                    </div>
+                    <button onclick="closePopup()" class="text-gray-400 hover:text-gray-600">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <p class="text-sm mt-1">Baru saja memesan <span class="font-semibold">Hair Growth Spray Serum</span></p>
+                <p class="text-xs text-gray-500 mt-1">1 menit yang lalu</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Dynamic counters
+        function animateCounter(elementId, target, duration = 2000) {
+            const element = document.getElementById(elementId);
+            const start = parseInt(element.textContent.replace(/,/g, ''));
+            const increment = target / (duration / 16);
+            let current = start;
+            
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    clearInterval(timer);
+                    current = target;
+                }
+                element.textContent = Math.floor(current).toLocaleString();
+            }, 16);
+        }
+
+        // Countdown timer
+        function startCountdown() {
+            let hours = 12;
+            let minutes = 34;
+            let seconds = 56;
+            
+            const interval = setInterval(() => {
+                seconds--;
+                if (seconds < 0) {
+                    seconds = 59;
+                    minutes--;
+                }
+                if (minutes < 0) {
+                    minutes = 59;
+                    hours--;
+                }
+                if (hours < 0) {
+                    clearInterval(interval);
+                    hours = 0;
+                    minutes = 0;
+                    seconds = 0;
+                }
+                
+                document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+                document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+                document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+                
+                document.getElementById('hours-2').textContent = hours.toString().padStart(2, '0');
+                document.getElementById('minutes-2').textContent = minutes.toString().padStart(2, '0');
+                document.getElementById('seconds-2').textContent = seconds.toString().padStart(2, '0');
+            }, 1000);
+        }
+
+        // Image modal
+        function openModal(imageSrc) {
+            document.getElementById('modalImage').src = imageSrc;
+            document.getElementById('imageModal').classList.remove('modal-hidden');
+            document.querySelector('.modal-content').classList.remove('modal-content-hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').classList.add('modal-hidden');
+            document.querySelector('.modal-content').classList.add('modal-content-hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        // FAQ toggle function
+        function toggleFAQ(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('i');
+            
+            // Toggle content visibility
+            content.classList.toggle('hidden');
+            
+            // Toggle icon rotation
+            icon.classList.toggle('rotate-180');
+            
+            // Smooth transition
+            content.style.transition = 'all 0.3s ease';
+        }
+
+        // New order popup
+        const names = ['Andi', 'Budi', 'Citra', 'Dewi', 'Eka', 'Fani', 'Gita', 'Hani', 'Indra', 'Joko'];
+        const locations = ['Jakarta', 'Bandung', 'Surabaya', 'Medan', 'Makassar', 'Semarang', 'Yogyakarta', 'Bali', 'Lampung', 'Palembang'];
+        
+        function showRandomPopup() {
+            const popup = document.getElementById('newOrderPopup');
+            const randomName = names[Math.floor(Math.random() * names.length)];
+            const randomLocation = locations[Math.floor(Math.random() * locations.length)];
+            
+            document.getElementById('popupName').textContent = randomName;
+            document.getElementById('popupInitial').textContent = randomName.charAt(0);
+            document.getElementById('popupLocation').textContent = `(${randomLocation})`;
+            
+            popup.classList.remove('hidden');
+            setTimeout(() => {
+                popup.classList.add('hidden');
+            }, 5000);
+        }
+        
+        function closePopup() {
+            document.getElementById('newOrderPopup').classList.add('hidden');
+        }
+
+        // Initialize everything when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            // Animate counters
+            animateCounter('viewer-count', 1258);
+            animateCounter('sold-count', 1892);
+            animateCounter('stock-count', 28);
+            animateCounter('happy-customers', 4k+);
+            
+            // Start countdown
+            startCountdown();
+            
+            // Show random popup every 10-20 seconds
+            setTimeout(() => {
+                showRandomPopup();
+                setInterval(showRandomPopup, 15000 + Math.random() * 10000);
+            }, 3000);
+            
+            // Close modal when clicking outside
+            document.getElementById('imageModal').addEventListener('click', (e) => {
+                if (e.target === document.getElementById('imageModal')) {
+                    closeModal();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
